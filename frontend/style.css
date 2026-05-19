@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial;
+    background-color:#121212;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+
+.container{
+    width:700px;
+    height:85vh;
+    background-color:#1e1e1e;
+    border-radius:20px;
+    padding:20px;
+    box-sizing:border-box;
+    display:flex;
+    flex-direction:column;
+    box-shadow:0 0 20px rgba(0,0,0,.5);
+
+}
+
+
+h1{
+    color:white;
+    text-align:center;
+    margin-bottom:20px;
+
+}
+
+
+.upload-section{
+    margin-bottom:15px;
+}
+
+
+#pdfUpload{
+    width:100%;
+    color:white;
+}
+
+
+.chat-box{
+    flex:1;
+    overflow-y:auto;
+    background-color:#2b2b2b;
+    border-radius:15px;
+    padding:15px;
+}
+
+
+.message{
+    width:fit-content;
+    max-width:70%;
+    padding:12px;
+    margin:10px 0;
+    border-radius:12px;
+    color:white;
+}
+
+.bot{
+    background:#3a3a3a;
+}
+
+.user{
+    background:#0078ff;
+    margin-left:auto;
+}
+
+
+.input-area{
+    display:flex;
+    margin-top:15px;
+}
+
+.input-area input{
+    flex:1;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+}
+
+
+.input-area button{
+    margin-left:10px;
+    width:100px;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+}
